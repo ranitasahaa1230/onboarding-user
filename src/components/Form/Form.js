@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { DisplayPage } from "./DisplayPage";
 import "./Form.css";
+import { DisplayPage } from "./DisplayPage";
 
 export const Form = () => {
   const [formData, setFormData] = useState({
@@ -101,4 +101,3 @@ export const Form = () => {
     </div>
   );
 };
-

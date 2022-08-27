@@ -1,9 +1,9 @@
+ import {SignUpPage} from "../SignUpPage/SignUpPage";
 import { Planning } from "../Planning/Planning";
 import { EdenUse } from "../EdenUse/EdenUse";
 import { SubmittedForm } from "../SubmittedForm/SubmittedForm";
-import { SignUpPage } from "../SignUpPage/SignUpPage";
 
- export const DisplayPage = ({FormTitles ,formData, setFormData ,page ,setPage}) => {
+export const DisplayPage = ({FormTitles ,formData, setFormData ,page ,setPage}) => {
    if (page === 0) {
      return (
        <SignUpPage

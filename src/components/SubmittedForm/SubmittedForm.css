@@ -1,11 +1,15 @@
-.tick-wrapper {
-  margin-top: 3rem;
+
+.tick-wrapper{
+margin-top: 3rem;
+
+
 }
-.tick {
-  border-radius: 100%;
-  font-size: 2rem;
-  padding: 0.5rem 0.75rem;
-  color: var(--SLATE-50);
-  width: fit-content;
-  text-align: center;
+.tick{
+    border-radius: 100%;
+    font-size: 2rem;
+    padding: .5rem .75rem;
+    color: var(--SLATE-50);
+    width: fit-content;
+    text-align: center;
+    
 }

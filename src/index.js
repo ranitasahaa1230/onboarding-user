@@ -1,15 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
 import { FormProvider } from "./contextsAndReducers/FormProvider";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <FormProvider>
-    <App />
-  </FormProvider>
+    <FormProvider>
+      <App />
+    </FormProvider>
   </React.StrictMode>
 );
 

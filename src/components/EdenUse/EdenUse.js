@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { FilledPerson, FilledsPerson, Person, Persons } from "../../icons";
 import "./EdenUse.css";
+import {FilledPerson, FilledsPerson, Person,Persons} from "../../icons";
 
-export const EdenUse = ({ heading, subHeading, formData, setFormData, children }) => {
+const EdenUse = ({ heading, subHeading, formData, setFormData, children }) => {
   const [select, setSelect] = useState({
     myself: true,
     team: false,
@@ -59,3 +59,5 @@ export const EdenUse = ({ heading, subHeading, formData, setFormData, children }
     </>
   );
 };
+
+export { EdenUse };

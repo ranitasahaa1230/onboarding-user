@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Planning.css";
+
 export const Planning = ({ heading, subHeading, formData, setFormData, children }) => {
   return (
     <>
@@ -59,4 +60,3 @@ export const Planning = ({ heading, subHeading, formData, setFormData, children 
     </>
   );
 };
-
