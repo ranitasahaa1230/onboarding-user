@@ -1,0 +1,15 @@
+.input-label__wrapper{
+    width: 100%;
+}
+.input-label__wrapper > .input-label{
+text-align: left;
+}
+.w-60{
+  width: 60%;
+}
+.w-40{
+  width: 40%;
+}
+.left-5{
+  left:5px;
+}
