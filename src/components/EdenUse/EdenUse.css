@@ -1,0 +1,22 @@
+.input-card-wrapper{
+    width: 100%;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;
+    margin-bottom:2rem;
+}
+.input-card{
+    width: 35%;
+    padding: 1rem 1.5rem 0rem .5rem;
+    border-radius: .5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: var(--SLATE-200) solid 2px;
+ 
+}
+.border-active__input{
+  border: solid var(--INDIGO-600) 2px;
+}
